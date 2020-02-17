@@ -50,18 +50,6 @@
     font-family: sans-serif;
 }
 
-/* .o-project-total .o-project-d1{
-    display: flex;
-    justify-content: flex-start;
-}
-
-.o-project-total .o-project-d3{
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-start;
-} */
-
-
 .o-project-d3{
     display: flex;
     flex-wrap: wrap;
@@ -85,7 +73,11 @@
     font-family: sans-serif;
 }
 
-
+.o-project-total {
+    display: flex;
+    /* justify-content: flex-end;
+    align-content: flex-start; */
+} 
 
 #titleh1{
     display: flex;
