@@ -1,0 +1,35 @@
+.o-info-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 250px;
+    padding: 0px 550px;
+    font-family: 'Lucida Sans';
+    text-shadow: 1px 0.5px 1px white;
+    /* background-color: rgb(146, 146, 146); */
+    background-image: url(../PracticaHTML2/Resources/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 15px solid black;
+}
+
+.o-info-container:before{
+    content: "";
+    width: 100%;
+    min-height: 270px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(white, gray);
+    opacity: 25%;
+}
+.o-div-image{
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+}
+.o-image{
+    margin-top: -10px;
+    border-radius: 50%;
+    padding-top: 15px; 
+}
