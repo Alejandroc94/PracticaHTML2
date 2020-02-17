@@ -5,7 +5,7 @@
     height: 300px;
     padding: 0px 500px;
     font-family: sans-serif;
-    text-shadow: 2px 1px 2px white;
+    text-shadow: 4px 3px 4px rgb(20, 20, 20);
     /* background-color: rgb(146, 146, 146); */
     background-image: url(../PracticaHTML2/Resources/fondo3.jpg);
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
     top: 0;
     left: 0;
     background: linear-gradient(white, white);
-    opacity: 15%;
+    opacity: 5%;
 }
 .o-div-image{
     display: flex;
@@ -45,6 +45,31 @@
     background-color: rgb(200, 200, 200); ;
     padding: 20px;
     margin: 15px;
+    /* margin-right: 700px; */
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+/* .o-project-total .o-project-d1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.o-project-total .o-project-d3{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+} */
+
+
+.o-project-d3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(200, 200, 200); ;
+    padding: 20px;
+    margin: 15px;
+    /* margin-left: 650px; */
     border-radius: 15px;
     font-family: sans-serif;
 }
@@ -60,16 +85,7 @@
     font-family: sans-serif;
 }
 
-.o-project-d3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: rgb(160, 160, 160); ;
-    padding: 20px;
-    margin: 15px;
-    border-radius: 15px;
-    font-family: sans-serif;
-}
+
 
 #titleh1{
     display: flex;
